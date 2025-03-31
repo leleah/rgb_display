@@ -1,0 +1,139 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-4"
+//Sat Mar 29 21:21:54 2025
+
+//Source file index table:
+//file0 "\C:/gowin_prj/rgb_display/fpga_project_rgb_display/src/main.v"
+`timescale 100 ps/100 ps
+module main (
+  Clock,
+  Red,
+  Green,
+  Blue,
+  Vsync,
+  Hsync,
+  Pixel_Clock,
+  DEN
+)
+;
+input Clock;
+output [4:0] Red;
+output [5:0] Green;
+output [4:0] Blue;
+output Vsync;
+output Hsync;
+output Pixel_Clock;
+output DEN;
+wire VCC;
+wire GND;
+  TBUF Red_4_s0 (
+    .O(Red[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Red_4_s1 (
+    .O(Red[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Red_4_s2 (
+    .O(Red[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Red_4_s3 (
+    .O(Red[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Red_4_s4 (
+    .O(Red[4]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Green_5_s0 (
+    .O(Green[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Green_5_s1 (
+    .O(Green[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Green_5_s2 (
+    .O(Green[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Green_5_s3 (
+    .O(Green[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Green_5_s4 (
+    .O(Green[4]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Green_5_s5 (
+    .O(Green[5]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Blue_4_s0 (
+    .O(Blue[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Blue_4_s1 (
+    .O(Blue[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Blue_4_s2 (
+    .O(Blue[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Blue_4_s3 (
+    .O(Blue[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Blue_4_s4 (
+    .O(Blue[4]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Vsync_s0 (
+    .O(Vsync),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Hsync_s0 (
+    .O(Hsync),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF Pixel_Clock_s0 (
+    .O(Pixel_Clock),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF DEN_s0 (
+    .O(DEN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* main */

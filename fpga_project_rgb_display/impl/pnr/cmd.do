@@ -1,0 +1,12 @@
+-d C:\gowin_prj\rgb_display\fpga_project_rgb_display\impl\gwsynthesis\fpga_project_rgb_display.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst C:\gowin_prj\rgb_display\fpga_project_rgb_display\src\fpga_project_rgb_display.cst
+-cfg C:\gowin_prj\rgb_display\fpga_project_rgb_display\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
