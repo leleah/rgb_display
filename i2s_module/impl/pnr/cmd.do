@@ -1,0 +1,12 @@
+-d C:\gowin_prj\i2s_module\impl\gwsynthesis\i2s_module.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst C:\gowin_prj\i2s_module\src\i2s_module.cst
+-cfg C:\gowin_prj\i2s_module\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

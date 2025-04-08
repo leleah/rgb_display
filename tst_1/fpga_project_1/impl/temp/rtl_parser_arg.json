@@ -1,0 +1,17 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/gowin_prj/tst_1/fpga_project_1/src/tst_1.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/gowin_prj/tst_1/fpga_project_1/impl/temp/rtl_parser.result",
+ "Top" : "tst_1",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,17 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/gowin_prj/shift_registr/src/shift.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "C:/gowin_prj/shift_registr/impl/temp"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/gowin_prj/shift_registr/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

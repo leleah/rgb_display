@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top">
+    <SubModule name="transfer_i2s" Register="98" Alu="4" Lut="31" Ssram="1"/>
+</Module>
