@@ -1,0 +1,37 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-4"
+//Tue Apr 08 19:04:39 2025
+
+//Source file index table:
+//file0 "\C:/gowin_prj/rgb_display/fpga_project_rgb_display/src/main.v"
+`timescale 100 ps/100 ps
+module Hsync_Vsync (
+  CLKIN,
+  Vsync,
+  Hsync
+)
+;
+input CLKIN;
+output Vsync;
+output Hsync;
+wire VCC;
+wire GND;
+  OBUF Vsync_obuf (
+    .O(Vsync),
+    .I(GND) 
+);
+  OBUF Hsync_obuf (
+    .O(Hsync),
+    .I(GND) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* Hsync_Vsync */

@@ -1,0 +1,18 @@
+[
+ {
+  "InstFile" : "C:/gowin_prj/rgb_display/fpga_project_rgb_display/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/gowin_prj/rgb_display/fpga_project_rgb_display/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main"
+ },
+ {
+  "InstFile" : "C:/gowin_prj/rgb_display/fpga_project_rgb_display/src/main.v",
+  "InstLine" : 19,
+  "InstName" : "Hsync_Vsync",
+  "ModuleFile" : "C:/gowin_prj/rgb_display/fpga_project_rgb_display/src/main.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "Hsync_Vsync"
+ }
+]
